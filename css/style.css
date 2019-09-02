@@ -93,19 +93,23 @@ a {
     padding: 20px 15px;
 }
 
-.items {
-    margin: 30px;
-    padding: 60px 20px 60px 20px;
-    max-width: 500px;
-    text-align: center;
+#portfolio {
     background: #fff;
-    border-bottom: 10px solid #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.items {
+    margin: 5px;
+    padding: 20px 5px;
+    max-width: 30%;
+    text-align: center;
 }
 
 .items-image {
     margin-top: 50px;
-    width: 200px;
-    height: 200px;
+    width: 273px;
+    height: 173px;
     border: 3px solid white;
     transition: none;
   }
@@ -133,7 +137,7 @@ a {
     }
     
     .container,
-    .banne {
+    .banner {
         width: 90%;
 
     }
@@ -171,7 +175,7 @@ a {
 }
 
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
 
     .container,
     .banner {
@@ -180,8 +184,8 @@ a {
 	}
 
     .items {
-        width: 33%;
-
+        width: 30%;
+        float: left;
     }
 
 
