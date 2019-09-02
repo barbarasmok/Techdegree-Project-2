@@ -66,9 +66,20 @@ a {
     }
 
     .name,
+    .name-footer,
     .items {
         float: left;
         width: 33%;
+    }
+
+    .main-nav {
+        float:right;
+    }
+
+    .main-nav li,
+    .footer-nav li {
+        display: inline-block;
+        margin-left: 15px;
     }
 
 }
