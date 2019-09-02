@@ -10,6 +10,7 @@ body {
     font-family: 'Manjari', sans-serif;
     line-height: 1.6;
     color: #3a3a3a;
+    background-color: rgb(248, 247, 247);
 }
 
 p {
@@ -41,6 +42,7 @@ a {
 .name {
     font-size: 1.30em;
     margin: 0;
+    padding-left: 40px;
 }
 
 .name-footer {
@@ -56,17 +58,18 @@ a {
 .main-nav a {
 	display: inline-block;
 	text-align: center;
-	padding: 10px 15px;
+    padding: 10px 15px;
+    text-transform: uppercase;
 }
 
 .main-nav a {
-	font-size: .95em;
-	color: #3a3a3a;
+	font-size: .75em;
+    color: #3a3a3a;
 }
 
 .main-nav a:hover{
-	font-size: .95em;
-	color: #09bada;
+	font-size: .75em;
+    color: #09bada;
 }
 
 /* ---- Layout Containers ---- */
@@ -76,20 +79,18 @@ a {
 	padding-bottom: .5em;
 }
 
-.banner {
-    background-color: rgb(248, 247, 247);
-}
-
 .intro {
     text-align: left;
     float:left;
     width: 60%;
+    padding: 20px 40px 15px;
 }
 
 .profile {
     text-align: right;
     float:right;
-    width: 30%;
+    width: 40%;
+    padding: 20px 15px;
 }
 
 
@@ -103,11 +104,21 @@ a {
 @media (min-width: 769px) {
 
     body {
-        padding-top: 68px;
+        padding-top: 100px;
 
     }
 
-    .container {
+    .main-header {
+        position: fixed;
+        background: #fff;
+        box-shadow: 0 1px 4px rgba(0,0,0,.4);
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+    }
+    
+    .container,
+    .banne {
         width: 90%;
 
     }
@@ -147,7 +158,8 @@ a {
 
 @media (min-width: 1025px) {
 
-    .container {
+    .container,
+    .banner {
 		width: 80%;
 		max-width: 1150px;
 	}
@@ -156,11 +168,6 @@ a {
         width: 33%;
 
     }
-
-
-
-
-
 
 
 }
