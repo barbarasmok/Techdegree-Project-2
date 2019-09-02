@@ -93,7 +93,22 @@ a {
     padding: 20px 15px;
 }
 
+.items {
+    margin: 30px;
+    padding: 60px 20px 60px 20px;
+    max-width: 500px;
+    text-align: center;
+    background: #fff;
+    border-bottom: 10px solid #fff;
+}
 
+.items-image {
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid white;
+    transition: none;
+  }
 
 
 
