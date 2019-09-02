@@ -26,6 +26,7 @@ h2 {
 
 h2 {
     margin-top: 0;
+    font-size: 1em;
 }
 
 a {
@@ -45,4 +46,29 @@ a {
 .name-footer {
     font-size: 1.15em;
     margin: 0;
+}
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+
+    body {
+        padding-top: 68px;
+
+    }
+
+    .container {
+        width: 90%;
+
+    }
+
+    .name,
+    .items {
+        float: left;
+        width: 33%;
+    }
+
 }
