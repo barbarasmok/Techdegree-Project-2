@@ -23,3 +23,26 @@ h2 {
     font-family: 'Lato', sans-serif;
     color: #3a3a3a;
 }
+
+h2 {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+.name {
+    font-size: 1.30em;
+    margin: 0;
+}
+
+.name-footer {
+    font-size: 1.15em;
+    margin: 0;
+}
