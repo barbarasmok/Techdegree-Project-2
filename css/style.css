@@ -48,6 +48,24 @@ a {
     margin: 0;
 }
 
+.main-nav {
+	margin-top: 5px;
+}
+
+.name a,
+.main-nav a {
+	display: inline-block;
+	text-align: center;
+	padding: 10px 15px;
+}
+
+.main-nav a {
+	font-size: .95em;
+	color: #3acec2;
+	text-transform: uppercase;
+}
+
+
 
 /* ================================= 
   Media Queries
@@ -69,7 +87,11 @@ a {
     .name-footer,
     .items {
         float: left;
-        width: 33%;
+    }
+
+    .items {
+        width: 90%;
+
     }
 
     .main-nav,
@@ -90,6 +112,26 @@ a {
 		display: table;
 		clear: both;
 	}
+
+}
+
+
+@media (min-width: 1025px) {
+
+    .container {
+		width: 80%;
+		max-width: 1150px;
+	}
+
+    .items {
+        width: 33%;
+
+    }
+
+
+
+
+
 
 
 }
