@@ -69,6 +69,31 @@ a {
 	color: #09bada;
 }
 
+/* ---- Layout Containers ---- */
+
+.main-header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+.banner {
+    background-color: rgb(248, 247, 247);
+}
+
+.intro {
+    text-align: left;
+    float:left;
+    width: 60%;
+}
+
+.profile {
+    text-align: right;
+    float:right;
+    width: 30%;
+}
+
+
+
 
 
 /* ================================= 
