@@ -126,6 +126,36 @@ a {
     color: #09bada;
 }
 
+
+.main-footer {
+    border-top: #b6b5b5 solid 1px;
+}
+
+.name-footer {
+    font-size: 0.75em;
+    margin: 0;
+}
+
+.name-footer,
+.footer-nav a {
+	display: inline-block;
+	text-align: center;
+    padding: 10px 5px;
+    text-transform: uppercase;
+}
+
+.footer-nav a {
+	font-size: .5em;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+}
+
+.footer-nav a:hover{
+	font-size: .5em;
+    color: #09bada;
+}
+
 /* ---- Layout Containers ---- */
 
 .main-header {
