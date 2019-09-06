@@ -52,10 +52,10 @@ a {
     font-family: 'Lato', sans-serif;
     color: #3a3a3a;
     font-size: 1.1em;
-    max-width: 50%;
+    max-width: 45%;
     text-align: left;
     float:left;
-    padding: 10px 40px 15px;
+    padding-top: 10px;
 }
 
 /* ================================= 
@@ -65,7 +65,6 @@ a {
 .name {
     font-size: 1.30em;
     margin: 0;
-    padding-left: 40px;
 }
 
 .name-footer {
@@ -75,7 +74,6 @@ a {
 
 .main-nav {
     margin-top: 5px;
-    margin-right: 40px;
 }
 
 .name a,
@@ -110,7 +108,7 @@ a {
     text-align: right;
     float:right;
     max-width: 50%;
-    padding: 20px 40px;
+    padding: 20px 0;
 }
 
 #portfolio {
