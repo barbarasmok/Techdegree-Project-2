@@ -120,26 +120,28 @@ a {
     text-align: center;
     margin: 50px 20px;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .items {
-    margin: 10px;
-    padding: 20px 5px;
+    margin: 15px 10px;
+    padding-top: 10px;
     max-width: 30%;
     text-align: center;
 }
 
 .items-image {
-    width: 273px;
-    height: 173px;
+    width: 270px;
+    height: 170px;
     transition: none;
   }
 
 .items-info {
-    padding: 0 5px;
     font-size: .76em;
     text-align: center;
     color: #3a3a3a;
+    margin: auto;
+    max-width: 225px;
 }
 
 /* ================================= 
