@@ -51,6 +51,11 @@ a {
 
 }
 
+#contact h2 {
+    text-transform: uppercase;
+
+}
+
 
 .intro {
     font-family: 'Lato', sans-serif;
@@ -61,6 +66,18 @@ a {
     float:left;
     padding-top: 10px;
 }
+
+
+.contact-info {
+    font-family: 'Lato', sans-serif;
+    color: #3a3a3a;
+    font-size: 1.1em;
+    max-width: 45%;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
 
 /* ================================= 
   Base Layout Styles
@@ -142,6 +159,14 @@ a {
     color: #3a3a3a;
     margin: auto;
     max-width: 225px;
+}
+
+#contact {
+    text-align: center;
+    margin: 50px 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
 }
 
 /* ================================= 
