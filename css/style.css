@@ -48,7 +48,11 @@ a {
 }
 
 
-
+.intro {
+    font-family: 'Lato', sans-serif;
+    color: #3a3a3a;
+    font-size: 1em;
+}
 
 /* ================================= 
   Base Layout Styles
