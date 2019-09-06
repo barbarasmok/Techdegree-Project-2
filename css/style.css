@@ -51,7 +51,8 @@ a {
 .intro {
     font-family: 'Lato', sans-serif;
     color: #3a3a3a;
-    font-size: 1em;
+    font-size: 1.1em;
+    max-width: 50%;
 }
 
 /* ================================= 
@@ -70,24 +71,26 @@ a {
 }
 
 .main-nav {
-	margin-top: 5px;
+    margin-top: 5px;
+    margin-right: 40px;
 }
 
 .name a,
 .main-nav a {
 	display: inline-block;
 	text-align: center;
-    padding: 10px 15px;
+    padding: 10px 5px;
     text-transform: uppercase;
 }
 
 .main-nav a {
-	font-size: .75em;
-    color: #3a3a3a;
+	font-size: .7em;
+    color: #000;
+    font-family: 'Lato', sans-serif;
 }
 
 .main-nav a:hover{
-	font-size: .75em;
+	font-size: .7em;
     color: #09bada;
 }
 
@@ -109,7 +112,7 @@ a {
     text-align: right;
     float:right;
     width: 40%;
-    padding: 20px 15px;
+    padding: 20px 40px;
 }
 
 #portfolio {
