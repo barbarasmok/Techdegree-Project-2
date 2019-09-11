@@ -181,7 +181,7 @@ a {
 .items {
     margin: 15px 10px;
     padding-top: 10px;
-    max-width: 30%;
+    max-width: 31%;
     text-align: center;
 }
 
@@ -210,7 +210,7 @@ a {
   Media Queries
 ==================================== */
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
 
     body {
         padding-top: 100px;
@@ -218,7 +218,7 @@ a {
     }
 
     .main-header {
-        position: fixed;
+        position: absolute;
         width: 100%;
         top: 0;
         z-index: 1000;
@@ -227,6 +227,7 @@ a {
     .container,
     .banner {
         width: 90%;
+        margin: 0 auto;
 
     }
 
@@ -237,7 +238,15 @@ a {
     }
 
     .items {
-        width: 90%;
+        max-width: 50%;
+        margin: auto;
+        padding: 15px 15px;
+    }
+
+    .items-image {
+        width: 330px;
+        height: 170px;
+        transition: none;
     }
 
     .main-nav,
@@ -278,7 +287,6 @@ a {
     }
 
     #portfolio {
-        max-width: 1150px;
         text-align: center;
     }
 
