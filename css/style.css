@@ -208,6 +208,8 @@ a {
     padding-bottom: 50px;
 }
 
+
+
 /* ================================= 
   Media Queries
 ==================================== */
@@ -305,7 +307,6 @@ a {
         border-top: #b6b5b5 solid 1px;
         max-width: 300px;
         margin: auto;
-
     }
 
 
@@ -337,7 +338,6 @@ a {
         text-align: right;
     }
 
-
     /* ---- Float clearfix ---- */
 
 	.clearfix::after {
@@ -347,8 +347,6 @@ a {
 	}
 
 }
-
-
 
 
 
@@ -376,16 +374,6 @@ a {
        padding-top: 70px;
     }
 
-    .name-footer,
-    .items {
-        float: left;
-    }
-
-    .name-footer {
-        margin-top: 0;
-        padding: 0;
-    }
-
     .items {
         max-width: 50%;
         margin: auto;
@@ -407,15 +395,10 @@ a {
         margin-top: 20px;
     }
 
-    
-    .footer-nav {
-        text-align: right;
-    }
 
     .main-nav li,
     .footer-nav li {
         display: inline-block;
-        margin-left: 15px;
     }
 
     .profile {
@@ -432,6 +415,50 @@ a {
         max-width: 45%;
         text-align: left;
         float: left;
+    }
+
+    .main-footer {
+        border-top: #b6b5b5 solid 1px;
+        max-width: 768px;
+        margin: auto;
+    }
+
+    .name-footer,
+    .items {
+        float: left;
+    }
+
+    .name-footer {
+        margin-top: 20px;
+        padding: 0;
+        font-family: 'Lato', sans-serif;
+        font-weight: bolder;
+    }
+    
+    .footer-nav {
+        text-align: right;
+        display: inline-block;
+        float: right;
+    }
+
+    .footer-nav a {
+        font-size: 0.8em;
+        text-transform: uppercase;
+        float: right;
+        font-family: 'Lato', sans-serif;
+        font-weight: bolder;
+        text-align: right;
+
+    }
+
+    .footer-nav a:hover{
+        font-size: .8em;
+        color: #09bada;
+    }
+    
+
+    .back {
+        display: none;
     }
 
     /* ---- Float clearfix ---- */
