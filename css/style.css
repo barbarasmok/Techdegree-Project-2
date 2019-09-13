@@ -366,12 +366,60 @@ a {
     
     .container,
     .banner {
-        width: 90%;
-        margin: 0 auto;
+        width: 728px;
+        margin: auto;
     }
 
     .banner {
-       padding-top: 70px;
+        margin-top: 30px;
+    }
+
+
+    .name,
+    .main-nav {
+        text-align: center;
+    }
+
+    .name {
+        margin-top: 40px;
+        font-size: 2em;
+    }
+
+
+    .main-nav li,
+    .footer-nav li {
+        display: inline-block;
+        background-color: transparent;
+        margin-left: 15px;
+    }
+
+    .main-nav {
+        margin-top: 10px;
+    }
+
+    .main-nav a {
+        font-size: 1em;
+        text-transform: uppercase;
+        font-family: 'Lato', sans-serif;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .profile {
+        float: right;
+        max-width: 40%;
+        margin-top: 10px;
+        padding-right: 10px;
+    }
+
+    .intro {
+        font-family: 'Lato', sans-serif;
+        color: #8a8a8a;
+        font-size: 1.3em;
+        max-width: 52%;
+        text-align: left;
+        float: left;
+        padding-left: 10px;
     }
 
     .items {
@@ -386,35 +434,8 @@ a {
         transition: none;
     }
 
-    .name,
-    .main-nav {
-        text-align: center;
-    }
-
-    .name {
-        margin-top: 20px;
-    }
-
-
-    .main-nav li,
-    .footer-nav li {
-        display: inline-block;
-    }
-
-    .profile {
-        text-align: right;
-        float: right;
-        max-width: 50%;
-        padding: 20px 0;
-    }
-
-    .intro {
-        font-family: 'Lato', sans-serif;
-        color: #8a8a8a;
-        font-size: 1.1em;
-        max-width: 45%;
-        text-align: left;
-        float: left;
+    .contact-info {
+        max-width: 450px;
     }
 
     .main-footer {
