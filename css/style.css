@@ -385,7 +385,7 @@ a {
 
     .name {
         margin-top: 40px;
-        font-size: 2em;
+        font-size: 1.3em;
     }
 
     .main-nav li,
@@ -400,11 +400,16 @@ a {
     }
 
     .main-nav a {
-        font-size: 1em;
+        font-size: 0.8em;
         text-transform: uppercase;
         font-family: 'Lato', sans-serif;
         font-weight: bolder;
         text-align: center;
+    }
+
+    .main-nav a:hover {
+        font-size: 0.8em;
+        color: #09bada;
     }
 
     .profile {
@@ -433,7 +438,7 @@ a {
     }
 
     .items {
-        max-width: 728px;
+        width: 50%;
         margin: auto;
         padding: 15px 15px;
     }
@@ -540,16 +545,16 @@ a {
     }
 
     .main-nav a {
-        font-size: 0.8em;
+        font-size: 1em;
         text-transform: uppercase;
         font-family: 'Lato', sans-serif;
         font-weight: bolder;
         text-align: center;
     }
 
-    .main-nav a:hover{
-        font-size: 0.8em;
-        color: #fff;
+    .main-nav a:hover {
+        font-size: 1em;
+        color: #09bada;
     }
 
     .banner {
@@ -582,7 +587,7 @@ a {
 
 
     .items {
-        max-width: 33%;
+        width: 33.3333%;
         float: left;
         margin: auto;
         padding: 15px 15px;
