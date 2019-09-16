@@ -506,21 +506,10 @@ a {
 
     .container,
     .banner {
-        max-width: 1150px;
+        width: 968px;
         text-align: center;
         margin: auto;
 	}
-
-    .items {
-        width: 33%;
-        float: left;
-
-    }
-
-    #portfolio {
-        text-align: center;
-    }
-
 
     .main-header {
         position: absolute;
@@ -536,16 +525,62 @@ a {
         float: left;
     }
 
+    .name {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .main-nav {
+        margin-top: 20px;
+    }
+
+    .main-nav a {
+        font-size: 0.8em;
+        text-transform: uppercase;
+        font-family: 'Lato', sans-serif;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .banner {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .profile {
+        float: right;
+        max-width: 40%;
+        margin-top: 0;
+        padding-right: 10px;
+    }
+
+    .intro {
+        font-family: 'Lato', sans-serif;
+        color: #8a8a8a;
+        font-size: 1em;
+        max-width: 52%;
+        text-align: left;
+        float: left;
+        padding-left: 10px;
+    }
+
+
+    #portfolio {
+        text-align: center;
+    }
+
 
     .items {
         max-width: 33%;
+        float: left;
         margin: auto;
         padding: 15px 15px;
     }
 
     .items-image {
-        width: 270px;
-        height: 170px;
+        width: 230px;
+        height: 130px;
         transition: none;
     }
 
@@ -554,10 +589,7 @@ a {
         float: right;
     }
 
-    .main-nav {
-        margin-top: 20px;
-    }
-
+    
     .name-footer {
         margin-top: 20px;
     }
