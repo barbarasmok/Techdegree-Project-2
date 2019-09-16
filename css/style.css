@@ -231,6 +231,7 @@ a {
         top: 0;
         z-index: 1000;
         margin: auto;
+        background-color: #fff;
     }
     
     .container {
@@ -240,7 +241,7 @@ a {
 
     .banner {
         width: 90%;
-        margin: 0 auto;
+        margin: 20px auto;
         padding-top: 70px;
         text-align: center;
     }
@@ -258,7 +259,7 @@ a {
     
     .main-nav li {
         display: block;
-        background-color: #fff;
+        background-color: #F6D909;
         margin-top: 5px;
     }
 
