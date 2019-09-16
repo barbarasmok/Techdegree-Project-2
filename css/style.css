@@ -96,7 +96,7 @@ a {
 .main-nav a {
 	display: inline-block;
 	text-align: center;
-    padding: 10px 5px;
+    padding: 0 5px;
 }
 
 .main-nav a {
@@ -121,7 +121,7 @@ a {
 
 .banner {
     width: 90%;
-    margin: 75px auto;
+    margin: 50px auto;
     padding-top: 70px;
     text-align: center;
 }
@@ -138,10 +138,7 @@ a {
     font-family: 'Lato', sans-serif;
     color: #8a8a8a;
     font-size: 1.1em;
-    text-align: left;
-    float:left;
-    padding-left: 10px;
-
+    text-align: center;
 }
 
 #portfolio {
@@ -308,15 +305,16 @@ a {
     }
 
     .main-nav a {
-        font-size: 1em;
+        font-size: 1.1em;
         text-transform: uppercase;
         font-family: 'Lato', sans-serif;
         font-weight: bolder;
         text-align: center;
+        padding: 5px 15px 10px;
     }
 
     .main-nav a:hover {
-        font-size: 1em;
+        font-size: 1.1em;
         color: #09bada;
     }
 
@@ -330,6 +328,9 @@ a {
     .intro {
         font-size: 1.1em;
         max-width: 52%;
+        float:left;
+        text-align: left;
+        padding-left: 10px;
     }
 
     #portfolio {
@@ -446,11 +447,12 @@ a {
     }
 
     .main-nav a {
-        font-size: 0.7em;
+        font-size: 1em;
         text-transform: uppercase;
         font-family: 'Lato', sans-serif;
         font-weight: bolder;
         text-align: center;
+        padding: 10px 15px;
     }
 
     .main-nav a:hover {
@@ -473,6 +475,9 @@ a {
     .intro {
         font-size: 1.1em;
         width: 47%;
+        float:left;
+        text-align: left;
+        padding-left: 10px;
     }
 
 
