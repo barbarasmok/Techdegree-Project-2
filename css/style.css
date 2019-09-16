@@ -211,7 +211,7 @@ a {
 
 
 /* ================================= 
-  Media Queries
+  Media Querie 320px
 ==================================== */
 
 @media (min-width: 320px) {
@@ -240,8 +240,6 @@ a {
         padding-top: 70px;
         text-align: center;
     }
-
-
 
     .main-nav {
         margin-top: 20px;
@@ -302,13 +300,11 @@ a {
         max-width: 90%;
     }
 
-
     .main-footer {
         border-top: #b6b5b5 solid 1px;
         max-width: 300px;
         margin: auto;
     }
-
 
     .name-footer {
         font-size: 0.9em;
@@ -349,6 +345,9 @@ a {
 }
 
 
+/* ================================= 
+  Media Querie 768px
+==================================== */
 
 @media (min-width: 768px) {
 
@@ -374,7 +373,6 @@ a {
         margin-top: 30px;
     }
 
-
     .name,
     .main-nav {
         text-align: center;
@@ -384,7 +382,6 @@ a {
         margin-top: 40px;
         font-size: 2em;
     }
-
 
     .main-nav li,
     .footer-nav li {
@@ -422,8 +419,16 @@ a {
         padding-left: 10px;
     }
 
+    #portfolio {
+        background: #fff;
+        text-align: center;
+        margin: 50px auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
     .items {
-        max-width: 50%;
+        max-width: 728px;
         margin: auto;
         padding: 15px 15px;
     }
@@ -492,6 +497,10 @@ a {
 
 }
 
+
+/* ================================= 
+  Media Querie 1024px
+==================================== */
 
 @media (min-width: 1024px) {
 
