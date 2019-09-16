@@ -11,6 +11,7 @@ body {
     line-height: 1.6;
     color: #3a3a3a;
     background-color: rgb(248, 247, 247);
+    padding-top: 100px;
 }
 
 
@@ -54,21 +55,143 @@ a {
 }
 
 
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+
+.container {
+    margin: auto;
+}
+
+.main-header {
+	padding-top: .5em;
+    padding-bottom: .5em;
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    margin: auto;
+}
+
+.name {
+    font-size: 1.30em;
+    margin-top: 20px;
+    text-align: center;
+}
+ 
+.name-footer {
+    font-size: 1.15em;
+    margin: 0;
+}
+
+.main-nav {
+    margin-top: 20px;
+    text-align: center;
+    padding: 0;
+}
+
+.name a,
+.main-nav a {
+	display: inline-block;
+	text-align: center;
+    padding: 10px 5px;
+}
+
+.main-nav a {
+	font-size: 0.7em;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.main-nav a:hover{
+	font-size: 0.7em;
+    color: #09bada;
+}
+
+.main-nav li {
+    display: inline-block;
+    background-color: #FFF;
+    margin-top: 5px;
+}
+
+
+.banner {
+    width: 90%;
+    margin: 20px auto;
+    padding-top: 70px;
+    text-align: center;
+}
+
+
+.profile {
+    text-align: right;
+    float:right;
+    margin-top: 50px;
+    max-width: 50%;
+    padding: 20px 0;
+}
+
+
 .intro {
     font-family: 'Lato', sans-serif;
     color: #8a8a8a;
     font-size: 1.1em;
-    max-width: 45%;
+    max-width: 50%;
     text-align: left;
     float:left;
+    padding-left: 10px;
+
 }
 
+#portfolio {
+    background: #fff;
+    text-align: center;
+    margin: 50px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.items {
+    margin: 10px auto;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+.items-image {
+    width: 290px;
+    height: 170px;
+    transition: none;
+}
+
+.items-info {
+    font-size: 0.9em;
+    text-align: center;
+    color: #3a3a3a;
+    margin: auto;
+    width: 80%;
+}
+
+#contact {
+    text-align: center;
+    margin: 0 20px 20px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.details,
+.contact-info {
+        max-width: 90%;
+}
 
 .contact-info {
     font-family: 'Lato', sans-serif;
     color: #8a8a8a;
     font-size: 1em;
-    max-width: 48%;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 30px;
@@ -80,59 +203,15 @@ a {
     font-family: 'Lato', sans-serif;
     color: #8a8a8a;
     font-size: 1em;
-    max-width: 48%;
     text-align: center;
     padding-top: 5px;
     margin: auto;
 
 }
 
-
-/* ================================= 
-  Base Layout Styles
-==================================== */
-
-.name {
-    font-size: 1.30em;
-    margin: 0;
-}
-
-.name-footer {
-    font-size: 1.15em;
-    margin: 0;
-}
-
-.main-header {
-    background-color: #F6D909;
-}
-
-.main-nav {
-    margin-top: 5px;
-}
-
-.name a,
-.main-nav a {
-	display: inline-block;
-	text-align: center;
-    padding: 10px 5px;
-}
-
-.main-nav a {
-	font-size: .7em;
-    color: #000;
-    font-family: 'Lato', sans-serif;
-    font-weight: bolder;
-    text-transform: uppercase;
-}
-
-.main-nav a:hover{
-	font-size: .7em;
-    color: #09bada;
-}
-
-
 .main-footer {
     border-top: #b6b5b5 solid 1px;
+    margin: auto;
 
 }
 
@@ -141,11 +220,22 @@ a {
     margin-top: 15px;
 }
 
-.name-footer,
-.footer-nav a {
-	display: inline-block;
-	text-align: center;
-    padding: 10px 5px;
+.name-footer {
+    font-size: 0.9em;
+    margin-top: 5px;
+    float:left;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+}
+
+.footer-nav {
+    text-align: right;
+    display: none;
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin-left: 15px;
 }
 
 .footer-nav a {
@@ -161,192 +251,14 @@ a {
     color: #09bada;
 }
 
-/* ---- Layout Containers ---- */
-
-.main-header {
-	padding-top: .5em;
-	padding-bottom: .5em;
-}
-
-
-.profile {
+.back {
+    font-size: 0.8em;
+    margin-top: 15px;
+    text-transform: uppercase;
+    float: right;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
     text-align: right;
-    float:right;
-    max-width: 50%;
-    padding: 20px 0;
-}
-
-#portfolio {
-    background: #fff;
-    text-align: center;
-    margin: 50px 20px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.items {
-    margin: 15px 10px;
-    padding-top: 10px;
-    max-width: 31%;
-    text-align: center;
-}
-
-.items-image {
-    width: 270px;
-    height: 170px;
-    transition: none;
-  }
-
-.items-info {
-    font-size: .76em;
-    text-align: center;
-    color: #3a3a3a;
-    margin: auto;
-    max-width: 225px;
-}
-
-#contact {
-    text-align: center;
-    margin: 0 20px 20px;
-    padding-top: 10px;
-    padding-bottom: 50px;
-}
-
-
-
-/* ================================= 
-  Media Querie 320px
-==================================== */
-
-@media (min-width: 320px) {
-
-    body {
-        padding-top: 100px;
-
-    }
-
-    .main-header {
-        position: absolute;
-        width: 100%;
-        top: 0;
-        z-index: 1000;
-        margin: auto;
-        background-color: #fff;
-    }
-    
-    .container {
-        width: 300px;
-        margin: auto;
-    }
-
-    .banner {
-        width: 90%;
-        margin: 20px auto;
-        padding-top: 70px;
-        text-align: center;
-    }
-
-    .main-nav {
-        margin-top: 20px;
-        text-align: center;
-        padding: 0;
-    }
-
-    .name {
-        margin-top: 20px;
-        text-align: center;
-    }
-    
-    .main-nav li {
-        display: block;
-        background-color: #F6D909;
-        margin-top: 5px;
-    }
-
-    .profile {
-        text-align: center;
-        max-width: 70%;
-        margin-top: 50px;
-        padding: 20px 0 5px;
-        float: none;
-    }
-
-    .intro {
-        max-width: 100%;
-        text-align: center;
-    }
-
-    #portfolio {
-        background: #fff;
-        text-align: center;
-        margin: 50px auto;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-
-    .name-footer,
-    .items {
-        float: left;
-    }
-
-    .items {
-        max-width: 300px;
-        margin: auto;
-    }
-
-    .items-image {
-        width: 300px;
-        height: 170px;
-        transition: none;
-    }
-
-    .details,
-    .contact-info {
-        max-width: 90%;
-    }
-
-    .main-footer {
-        border-top: #b6b5b5 solid 1px;
-        max-width: 300px;
-        margin: auto;
-    }
-
-    .name-footer {
-        font-size: 0.9em;
-        margin-top: 5px;
-        float:left;
-        font-family: 'Lato', sans-serif;
-        font-weight: bolder;
-    }
-    
-    .footer-nav {
-        text-align: right;
-        display: none;
-    }
-
-    .footer-nav li {
-        display: inline-block;
-        margin-left: 15px;
-    }
-
-    .back {
-        font-size: 0.8em;
-        margin-top: 15px;
-        text-transform: uppercase;
-        float: right;
-        font-family: 'Lato', sans-serif;
-        font-weight: bolder;
-        text-align: right;
-    }
-
-    /* ---- Float clearfix ---- */
-
-	.clearfix::after {
-		content: " ";
-		display: table;
-        clear: both;
-	}
-
 }
 
 
@@ -415,18 +327,13 @@ a {
     .profile {
         float: right;
         max-width: 40%;
-        margin-top: 10px;
+        margin-top: 5px;
         padding-right: 10px;
     }
 
     .intro {
-        font-family: 'Lato', sans-serif;
-        color: #8a8a8a;
-        font-size: 1.3em;
+        font-size: 1.1em;
         max-width: 52%;
-        text-align: left;
-        float: left;
-        padding-left: 10px;
     }
 
     #portfolio {
@@ -439,8 +346,6 @@ a {
 
     .items {
         width: 50%;
-        margin: auto;
-        padding: 15px 15px;
     }
 
     .items-image {
@@ -515,7 +420,7 @@ a {
 
     .container,
     .banner {
-        width: 938px;
+        width: 968px;
         text-align: center;
         margin: auto;
 	}
@@ -545,7 +450,7 @@ a {
     }
 
     .main-nav a {
-        font-size: 1em;
+        font-size: 0.7em;
         text-transform: uppercase;
         font-family: 'Lato', sans-serif;
         font-weight: bolder;
@@ -553,7 +458,7 @@ a {
     }
 
     .main-nav a:hover {
-        font-size: 1em;
+        font-size: 0.7em;
         color: #09bada;
     }
 
@@ -570,34 +475,22 @@ a {
     }
 
     .intro {
-        font-family: 'Lato', sans-serif;
-        color: #8a8a8a;
         font-size: 1.1em;
-        max-width: 47.5%;
-        text-align: left;
-        float: left;
-        padding-left: 10px;
+        width: 47%;
     }
 
 
     #portfolio {
         text-align: center;
-        width: 938px;
+        width: 968px;
     }
 
 
     .items {
         width: 33.3333%;
         float: left;
-        margin: auto;
-        padding: 15px 15px;
     }
 
-    .items-image {
-        width: 230px;
-        height: 130px;
-        transition: none;
-    }
 
     .footer-nav,
     .main-nav {
@@ -612,7 +505,7 @@ a {
 
     .main-footer {
         border-top: #b6b5b5 solid 1px;
-        max-width: 938px;
+        max-width: 968px;
         margin: auto;
     }
     
