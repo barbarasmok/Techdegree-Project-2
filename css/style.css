@@ -482,7 +482,6 @@ a {
         color: #09bada;
     }
     
-
     .back {
         display: none;
     }
@@ -506,7 +505,7 @@ a {
 
     .container,
     .banner {
-        width: 968px;
+        width: 938px;
         text-align: center;
         margin: auto;
 	}
@@ -518,7 +517,6 @@ a {
         z-index: 1000;
     }
     
-
     .name,
     .name-footer,
     .items {
@@ -529,6 +527,7 @@ a {
         margin-top: 20px;
         text-align: center;
         font-size: 1.5em;
+        padding-left: 5px;
     }
 
     .main-nav {
@@ -552,7 +551,7 @@ a {
         float: right;
         max-width: 40%;
         margin-top: 0;
-        padding-right: 10px;
+        padding-right: 20px;
     }
 
     .intro {
@@ -568,6 +567,7 @@ a {
 
     #portfolio {
         text-align: center;
+        width: 938px;
     }
 
 
@@ -589,9 +589,42 @@ a {
         float: right;
     }
 
+    .main-nav li,
+    .footer-nav li {
+        display: inline-block;
+        margin-left: 15px;
+    }
+
+    .main-footer {
+        border-top: #b6b5b5 solid 1px;
+        max-width: 938px;
+        margin: auto;
+    }
     
     .name-footer {
         margin-top: 20px;
+        max-width: 40%;
+    }
+
+    .footer-nav {
+        text-align: right;
+        display: inline-block;
+        float: right;
+    }
+
+    .footer-nav a {
+        font-size: 0.5em;
+        text-transform: uppercase;
+        float: right;
+        font-family: 'Lato', sans-serif;
+        font-weight: bolder;
+        text-align: right;
+
+    }
+
+    .footer-nav a:hover{
+        font-size: 0.5em;
+        color: #09bada;
     }
 
     .main-nav li,
@@ -599,6 +632,12 @@ a {
         display: inline-block;
         margin-left: 15px;
     }
+
+    .back {
+        display: none;
+    }
+
+
 
     /* ---- Float clearfix ---- */
 
