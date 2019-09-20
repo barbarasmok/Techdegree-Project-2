@@ -43,15 +43,17 @@ a {
 
 }
 
-#portfolio h2 {
+#portfolio h2,
+#contact h2,
+#skills h2 {
     text-transform: uppercase;
 
 }
 
-#contact h2 {
-    text-transform: uppercase;
-
+#skills h2 {
+    color: #fff;
 }
+
 
 
 
@@ -177,14 +179,9 @@ a {
     padding-bottom: 50px;
 }
 
-#skills h2 {
-    text-transform: uppercase;
-    color: #fff;
-}
-
-
 .skills ul {
-    padding: 0px;
+    padding: 0;
+    margin: auto;
 }
 
 
@@ -484,7 +481,7 @@ a {
     }
 
     .main-nav a:hover {
-        font-size: 0.7em;
+        font-size: 1em;
         color: #09bada;
     }
 
