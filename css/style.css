@@ -37,6 +37,11 @@ p {
     font-size: .95em;
 }
 
+
+ul {
+    padding: 0;
+}
+
 a {
     text-decoration: none;
     color: #000;
@@ -177,6 +182,8 @@ a {
     margin: 0 auto 50px;
     padding-top: 50px;
     padding-bottom: 50px;
+    font-size: 1em;
+    text-align: center;
 }
 
 .skills ul {
@@ -192,6 +199,9 @@ a {
     color: #fff;
 }
 
+.skills li:hover {
+    color: #000;
+}
 
 
 #contact {
@@ -369,6 +379,7 @@ a {
     .items {
         width: 50%;
     }
+    
 
     .items-image {
         width: 300px;
@@ -376,8 +387,14 @@ a {
         transition: none;
     }
 
+    #skills {
+        font-size: 1.1em;
+    }
+
+
     .contact-info {
         max-width: 450px;
+        font-size: 1.1em;
     }
 
     .main-footer {
